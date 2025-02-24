@@ -1,0 +1,20 @@
+INSERT INTO nba_players 
+VALUES (1, "Lebron James", "Forward", 27.5);
+INSERT INTO nba_players 
+VALUES (2, "Stephen Curry", "Guard", 30.2);
+INSERT INTO nba_players 
+VALUES (3, "Kevin Durant", "Forward", 28.8);
+INSERT INTO nba_players 
+VALUES (4, "Giannis Antetokounmpo", "Forward", 29.0);
+INSERT INTO nba_players 
+VALUES (5, "Kawhi Leonard", "Forward", 25.8);
+INSERT INTO nba_players 
+VALUES (6, "James Harden", "Guard", 31.6);
+INSERT INTO nba_players 
+VALUES (7, "Anthony Davis", "Forward", 26.7);
+INSERT INTO nba_players 
+VALUES (8, "Luka Doncic", "Guard", 27.7);
+INSERT INTO nba_players 
+VALUES (9, "Joel Embiid", "Center", 28.5);
+INSERT INTO nba_players 
+VALUES (10, "Damian Lillard", "Guard", 28.8);  
