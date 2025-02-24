@@ -1,0 +1,2 @@
+CREATE TABLE nba_players (player_id INT PRIMARY KEY, player_name VARCHAR(50), position VARCHAR(50),
+PPG DECIMAL(5,2));
