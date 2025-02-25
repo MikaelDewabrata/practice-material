@@ -1,0 +1,24 @@
+-- Create the table for ASEAN country data
+CREATE TABLE asean_countries (
+    country_name VARCHAR(50) PRIMARY KEY,
+    population BIGINT,         -- Population count
+    gdp DECIMAL(10,2),         -- GDP in billions of USD
+    area INT,                  -- Area in km²
+    median_salary INT,         -- Approximate median annual salary in USD
+    capital VARCHAR(100),
+    independence_year INT      -- Year of independence or key nationhood milestone
+);
+
+-- Insert data for each ASEAN country
+INSERT INTO asean_countries (country_name, population, gdp, area, median_salary, capital, independence_year)
+VALUES
+    ('Indonesia', 273523615, 1119.00, 1904569, 3500, 'Jakarta', 1945),
+    ('Malaysia', 32776194, 336.00, 330803, 10000, 'Kuala Lumpur', 1957),
+    ('Philippines', 109581078, 362.00, 300000, 4500, 'Manila', 1946),
+    ('Singapore', 5850000, 372.00, 729, 60000, 'Singapore', 1965),
+    ('Thailand', 69799978, 544.00, 513120, 8000, 'Bangkok', 1238), -- Using 1238 as an approximate founding year
+    ('Vietnam', 97338579, 409.00, 331212, 5000, 'Hanoi', 1945),
+    ('Brunei', 437479, 13.50, 5765, 35000, 'Bandar Seri Begawan', 1984),
+    ('Cambodia', 16718965, 27.00, 181035, 1500, 'Phnom Penh', 1953),
+    ('Laos', 7275560, 18.00, 236800, 1300, 'Vientiane', 1949),
+    ('Myanmar', 54409800, 71.00, 676578, 2000, 'Naypyidaw', 1948);
