@@ -1,0 +1,23 @@
+{
+  "model": "deepseek-chat",
+  "max_tokens": 150,
+  "messages": [
+    {
+      "role": "user",
+      "content": "@{outputs('Get_a_row')?['body/Prompt']}"
+    }
+  ]
+}
+
+Authorization: Bearer
+API KEY: <API KAMU>
+
+https://api.deepseek.com/chat/completions
+
+Content-Type
+application/json
+
+key value: 1
+ID: @{body('Get_a_row')?['body/Prompt']}
+prompts: @{body('Get_a_row')?['body/Prompt']}
+response: @{body('HTTP')['choices'][0]['message']['content']}
